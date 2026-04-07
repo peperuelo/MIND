@@ -1,2 +1,2 @@
 # MIND
-Mind Band
+Just web excercises
