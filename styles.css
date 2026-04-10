@@ -1,10 +1,10 @@
 body{
     background-color: black;
+    margin: 0;
+    min-height: 100vh;
 }
 .square{
     position: absolute;
-    left: 41%;
-    top: 35%;
     width:100px ;
     height:100px ;
     background-color: crimson;
@@ -16,14 +16,28 @@ body{
     position: absolute;
     top: 55%;
     left: 50%;
+    transform: translateX(-50%);
 }
+
+.stage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: min(80vw, 500px);
+    height: min(50vw, 500px);
+}
+
 .name{
-    font-size: 200px;
-    font-style: oblique;
+    font-size: clamp(60px, 15vw, 200px);
     color: chartreuse;
     position: absolute;
-    left: 39%;
+    left: 50%;
+    transform: translateX(-50%);
     top: 1%;
+    margin: 0;
+    text-align: center;
+
 }
 
 @keyframes moving {
