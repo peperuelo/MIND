@@ -65,3 +65,51 @@ body{
     
     }
 }
+
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+    .name {
+        font-size: 130px;
+        top: 4%;
+    }
+
+    .stage {
+        width: 360px;
+        height: 360px;
+        top: 55%;
+    }
+
+    .square {
+        --size: 80px;
+        border-width: 3px;
+    }
+
+    .button {
+        top: 82%;
+    }
+}
+
+/* PHONE */
+@media (max-width: 600px) {
+    .name {
+        font-size: 72px;
+        top: 6%;
+    }
+
+    .stage {
+        width: 220px;
+        height: 220px;
+        top: 52%;
+    }
+
+    .square {
+        --size: 60px;
+        border-width: 2px;
+    }
+
+    .button {
+        top: 74%;
+    }
+}
